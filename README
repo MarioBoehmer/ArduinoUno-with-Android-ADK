@@ -1,0 +1,4 @@
+This is an example of how to run the Android ADK functionality on a basic Arduino Uno and an USB Host Shield. The Arduino pde is stripped down to its bare minimum supporting digital ports 2-7 with PWM, where possible, as output ports. The Android code is also stripped down to its basics.
+
+Find more info at:
+http://marioboehmer.blogspot.com/2011/05/android-adk-with-standard-arduino-uno.html

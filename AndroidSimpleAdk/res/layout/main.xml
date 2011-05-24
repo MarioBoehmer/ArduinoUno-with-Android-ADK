@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="match_parent" android:orientation="vertical"
+		android:background="@drawable/background_holo_dark">
+		<LinearLayout android:id="@+id/linearLayoutD2"
+			android:orientation="horizontal" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:paddingBottom="5dip">
+			<TextView android:text="D2" android:id="@+id/labelD2"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<ToggleButton android:textOn="@string/out_high"
+				android:textOff="@string/out_low" android:id="@+id/dPinHighLow2"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearLayoutD3"
+			android:orientation="horizontal" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:paddingBottom="5dip">
+			<TextView android:text="D3" android:id="@+id/labelD3"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<ToggleButton android:textOn="@string/out_high"
+				android:textOff="@string/out_low" android:id="@+id/dPinHighLow3"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearLayoutPWMD3"
+			android:orientation="horizontal" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:paddingBottom="5dip">
+			<TextView android:text="D3PWM" android:id="@+id/labelD3"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<SeekBar android:id="@+id/valueBarD3" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:paddingLeft="5dip"
+				android:paddingRight="10dip" android:max="255"></SeekBar>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearLayoutD4"
+			android:orientation="horizontal" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:paddingBottom="5dip">
+			<TextView android:text="D4" android:id="@+id/labelD4"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<ToggleButton android:textOn="@string/out_high"
+				android:textOff="@string/out_low" android:id="@+id/dPinHighLow4"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearLayoutD5"
+			android:orientation="horizontal" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:paddingBottom="5dip">
+			<TextView android:text="D5" android:id="@+id/labelD5"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<ToggleButton android:textOn="@string/out_high"
+				android:textOff="@string/out_low" android:id="@+id/dPinHighLow5"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearLayoutPWMD5"
+			android:orientation="horizontal" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:paddingBottom="5dip">
+			<TextView android:text="D5PWM" android:id="@+id/labelD5"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<SeekBar android:id="@+id/valueBarD5" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:paddingLeft="5dip"
+				android:paddingRight="10dip" android:max="255"></SeekBar>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearLayoutD6"
+			android:orientation="horizontal" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:paddingBottom="5dip">
+			<TextView android:text="D6" android:id="@+id/labelD6"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<ToggleButton android:textOn="@string/out_high"
+				android:textOff="@string/out_low" android:id="@+id/dPinHighLow6"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearLayoutPWMD6"
+			android:orientation="horizontal" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:paddingBottom="5dip">
+			<TextView android:text="D6PWM" android:id="@+id/labelD6"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<SeekBar android:id="@+id/valueBarD6" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:paddingLeft="5dip"
+				android:paddingRight="10dip" android:max="255"></SeekBar>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearLayoutD7"
+			android:orientation="horizontal" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:paddingBottom="5dip">
+			<TextView android:text="D7" android:id="@+id/labelD7"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<ToggleButton android:textOn="@string/out_high"
+				android:textOff="@string/out_low" android:id="@+id/dPinHighLow7"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>
